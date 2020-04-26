@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="todolist.css">
+
+
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <center>
+        <div class="contenu">
+            <h3 id="test">To do list </h3>
+            <p id="demo"></p>
+
+            <input type="text" class="forms" placeholder="create list" id="todoInput" />
+            <button id="button" onclick="add()" type="button">Add</button>
+
+
+            <input id="buttonDeletAll" type="button" value="Delete all" onclick="reloadPage()" />
+
+            <ul id="liste">
+
+                <div id="todoList"></div>
+
+            </ul>
+
+            <script type="text/javascript" src="todolist.js"></script>
+        </div>
+    </center>
+</body>
+
+</html>

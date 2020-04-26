@@ -1,0 +1,31 @@
+#test{
+    font-size: 100px;
+    color: #f54957;
+    
+}
+#buttonDeletAll{
+    color: #f54957;
+    font-size: 20px;
+}
+#button{
+    color: #f54957;
+    font-size: 20px;
+}
+#todoInput{
+  
+    font-size: 20px;  
+
+}
+#demo{
+    font-size: 20px;
+    color: darkblue;
+}
+body{
+
+    background-image: url("https://images.ctfassets.net/awpxl2koull4/4UShtby7GVsZOgzxJ7Zndx/c32747f993cd45b59c80e45c815c4186/pink-to-do-list.jpg?fit=fill&w=1920&h=1440");
+    
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+
+background-repeat: no-repeat;
+}
